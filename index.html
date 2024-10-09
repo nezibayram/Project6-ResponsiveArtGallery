@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Nezihe Bayram" content="ResponsiveDesignAssignment">
+
+  <title>Colors</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Play:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="p1">My Art-Gallery</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="p2">In my art gallery I have depicted images of women using various mosaic and shape stencils.
+        Art arises from visual impressions from reality and from forms that we interpret and modify. 
+        Even the Neolithic people decorated their caves with drawings from their reality. 
+        This shows that people viewed language and images as inseparable in order to communicate with each other.<br>
+        Today, humanity is so advanced that machines with artificial intelligence generate art. Human art is very beautiful, but so is KI art. It's nice that we have both.
+     <br> You have the option to view my art gallery in dark mode or light mode.<br>
+     Please press the button below with the desired mode.</p>
+      <button id="black" onclick= "setColor('black'), blackMode()">Dark</button>
+      <button id="white" onclick= "setColor('white'), whiteMode()">Light</button>
+
+  </section>
+    
+    <div class="container">
+      <div class="grid-list" id="la">
+        <div class="item">
+          <img src="images/image1.png" alt="Red" width="200">
+          <p id = "label1">That's me in the background image with a stencil of circles over it </p>
+        </div>
+        <div class="item">
+          <img  src="images/image2.png" alt="Orange" width="200">
+          <p id = "label2" >This is a woman in the background with a grid of rectangles as a stencil.</p>
+        </div>
+        <div class="item item-3" >
+          <img src="images/image3.png" alt="Yellow" width="200">
+          <p id = "label3">This is a woman in the background with a mosaic of rectangles as a stencil.</p>
+        </div>
+        <div class="item">
+          <img src="images/image4.png" alt="Green" width="200">
+          <p id = "label4">This is woman in the background with a stencil of circles over it </p>
+        </div>
+        <div class="item">
+          <img src="images/image5.png" alt="Blue" width="200px">
+          <p id = "label5">This is a woman in the background with a mosaic of rectangles as a stencil.</p>
+        </div>
+        <div class="item item-6">
+          <img src="images/image6.png" alt="Indigo" width="200">
+          <p id = "label6">This is a woman in the background with a mosaic of triangles as a stencil.</p>
+        </div>
+        <div class="item">
+          <img src="images/image7.png" alt="Purple" width="200">
+          <p id = "label7">This is a fomous picture of a unknown woman in the background, by the Artist Jan Vermeer with a grid of rectangles as a stencil.</p>
+        </div>
+        <div class="item">
+          <img src="images/image8.png" alt="Pink" width="200">
+          <p id = "label8">This is artful created woman in the background with a stencil of circles over it</p>
+        </div>
+        <div class="item item-9">
+          <img src="images/image9.png" alt="White" width="200">
+          <p id = "label9">This is a poster of womans in the background with a mosaic of rectangles as a stencil.</p>
+        </div>
+      </div>
+    </div> 
+  </main>
+
+  <footer>
+    <a class="button" href="#top">Jump to the Top</a>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

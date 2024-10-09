@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #dedede;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section{
+    display: inline-block;
+    width: 90vw;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#white {
+    background-color: white;
+}
+
+
+p {
+   font-size: 1em;
+   text-align: center;
+   color: black;
+}
+
+button {
+    margin: 20px;
+    padding: .5em;
+    border-radius: 25px;
+}
+
+#black{
+   background-color: black;
+   color: white;
+   border: none;
+   padding: 10px 20px 10px 20px;
+   font-size: 1em;
+}
+
+#black:hover{
+    background-color: #121111;
+}
+
+#white{
+    background-color: white; 
+    color: black;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 1em;
+}
+
+#white:hover{
+    background-color: rgb(182, 180, 180); 
+}
+
+#black:hover{
+    background-color: rgb(206, 198, 198);
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.item p{
+    padding-bottom: 20px;
+}
+
+
+img{
+  padding-bottom: 20px;
+  width: 90vw;
+}
+
+
+footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: .5em;
+    border-radius: 25px;
+}
+
+.button:hover {
+    background-color:#fff;
+    cursor: pointer;
+}
+
+
+/*First Breakpoint at 772px*/
+
+@media screen and (min-width: 772px) {
+
+    body{
+        font-size: 1.5em;
+    }
+
+.container img{
+    grid-template-columns: 50% 50%;
+   }   
+
+.grid-list {
+    display: grid;s
+    grid-template-columns: 50% 50%;
+}
+
+.item-3 {
+    padding-top: 80px;
+
+}
+
+.item-6 {
+    padding-top: 80px;
+
+}
+
+.item-9 {
+    grid-template-columns: 100%;
+    grid-column: 1/ 3;
+}
+
+ .item-9 img {
+    width: 80vw;
+}
+
+   
+div {
+    margin: 20px;
+}
+
+img {
+    width: 40vw;
+    border-radius: 50%;
+}
+
+}
+
+/*Second Breakpoint at 998px*/
+
+@media screen and (min-width: 998px){
+
+body{
+    font-size: 2em;
+}
+
+section{
+        display: inline-block;
+    }
+ 
+    .item-3 {
+        grid-template-columns: 100%;
+        grid-column: 1/ 3;
+    }
+    
+    .item-3 img {
+        width: 90vw;
+    }
+    
+    
+    .item-6 {
+        grid-template-columns: 100%;
+        grid-column: 1/ 3;
+    }
+
+    .item-6 img {
+        width: 90vw;
+    }
+
+    .item-9 {
+        grid-template-columns: 100%;
+        grid-column: 1/ 3;
+    }
+
+    .item-9 img {
+        width: 90vw;
+    }
+     
+    div {
+        margin: 20px;
+    }
+    
+    img {
+        border-radius: 0;
+    }
+
+}
